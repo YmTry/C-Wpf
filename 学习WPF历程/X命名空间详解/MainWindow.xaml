@@ -6,8 +6,30 @@
         xmlns:local="clr-namespace:X命名空间详解"
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
-        <StackPanel>
-            <!--Mybutton继承自button类 所以显示按钮 同时对UserWindowType赋值-->
+    <!--<StackPanel>
+            -->
+    <!--Mybutton继承自button类 所以显示按钮 同时对UserWindowType赋值-->
+    <!--
             <local:MyButton Content="Show" UserWindowType="{x:Type TypeName=local:MyWindow}" Margin="5"/>
-        </StackPanel>
+        </StackPanel>-->
+    <Window.Resources>
+        <Style x:Key="{x:Type Button}" TargetType="{x:Type Button}">
+            <Setter Property="Width" Value="60"/>
+            <Setter Property="Height" Value="36"/>
+            <Setter Property="Margin" Value="15"/>
+        </Style>
+    </Window.Resources>
+    <StackPanel RenderTransformOrigin="0.5,0.5">
+        <StackPanel.RenderTransform>
+            <TransformGroup>
+                <ScaleTransform/>
+                <SkewTransform AngleX="0.544"/>
+                <RotateTransform/>
+                <TranslateTransform X="-1.99"/>
+            </TransformGroup>
+        </StackPanel.RenderTransform>
+        <Button Content="Ok" Margin="407,15,234,15" RenderTransformOrigin="0.5,0.5" Height="47" Width="Auto"/>
+        <Button Content="OK" Style="{x:Null}" Height="91" Margin="10,0,0,0"/>
+        <Button Content="Button" Margin="0" Width="Auto"/>
+    </StackPanel>
 </Window>

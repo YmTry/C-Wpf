@@ -1,0 +1,21 @@
+﻿<Window x:Class="X命名空间详解.XArray"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X命名空间详解"
+        xmlns:sys="clr-namespace:System;assembly=mscorlib"
+        mc:Ignorable="d"
+        Title="{x:Static local:XArray.abc}" Height="450" Width="800">
+    <Grid Background="LightBlue">
+        <ListBox>
+            <ListBox.ItemsSource>
+                <x:Array Type="sys:String">
+                    <sys:String>Tim</sys:String>
+                    <sys:String>Tom</sys:String>
+                    <sys:String>12346</sys:String>
+                </x:Array>
+            </ListBox.ItemsSource>
+        </ListBox>
+    </Grid>
+</Window>
