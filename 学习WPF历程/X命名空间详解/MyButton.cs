@@ -8,8 +8,9 @@ using System.Windows.Controls;
 
 namespace X命名空间详解
 {
-    class MyButton :Button
+    public class MyButton :Button
     {
+        public static string abc = "123";
         public Type UserWindowType { get; set; }
 
         protected override void OnClick()

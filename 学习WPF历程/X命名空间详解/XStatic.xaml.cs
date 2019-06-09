@@ -17,6 +17,8 @@ namespace X命名空间详解
     /// <summary>
     /// XStatic.xaml 的交互逻辑
     /// </summary>
+    ///
+    
     public partial class XStatic : Window
     {
         public static string title = "wo de title";
