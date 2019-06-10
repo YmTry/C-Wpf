@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:X命名空间详解"
         xmlns:sys="clr-namespace:System;assembly=mscorlib"
         mc:Ignorable="d"
-        Title="{x:Static local:XArray.abc}" Height="450" Width="800">
+        Title="{}" Height="450" Width="800">
     <Grid Background="LightBlue">
         <ListBox>
             <ListBox.ItemsSource>

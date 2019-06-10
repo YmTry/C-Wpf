@@ -19,10 +19,6 @@ namespace X命名空间详解
     /// </summary>
     public partial class XArray : Window
     {
-        public static string abc
-        {
-            get { return "123"; }
-        }
         public XArray()
         {
             InitializeComponent();

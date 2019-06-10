@@ -55,12 +55,19 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="ListEmployee.xaml.cs">
+      <DependentUpon>ListEmployee.xaml</DependentUpon>
+    </Compile>
     <Compile Include="XArray.xaml.cs">
       <DependentUpon>XArray.xaml</DependentUpon>
     </Compile>
     <Compile Include="XStatic.xaml.cs">
       <DependentUpon>XStatic.xaml</DependentUpon>
     </Compile>
+    <Page Include="ListEmployee.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="MainWindow.xaml">
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
