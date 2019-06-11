@@ -26,16 +26,15 @@ namespace X命名空间详解.Frames
 
         public void Window_Loaded(object sender, RoutedEventArgs e)
         {
-            //this.GridMain.ColumnDefinitions.Add(new ColumnDefinition());
-            //this.GridMain.ColumnDefinitions.Add(new ColumnDefinition());
-            //this.GridMain.ColumnDefinitions.Add(new ColumnDefinition());
-            //this.GridMain.ColumnDefinitions.Add(new ColumnDefinition());
-            //this.GridMain.RowDefinitions.Add(new RowDefinition());
-            //this.GridMain.RowDefinitions.Add(new RowDefinition());
-            //this.GridMain.RowDefinitions.Add(new RowDefinition());
-            //this.GridMain.ShowGridLines = true;
-            MessageBox.Show("123");
+            this.gridmain.ColumnDefinitions.Add(new ColumnDefinition());
+            this.gridmain.ColumnDefinitions.Add(new ColumnDefinition());
+            this.gridmain.ColumnDefinitions.Add(new ColumnDefinition());
+            this.gridmain.ColumnDefinitions.Add(new ColumnDefinition());
+            this.gridmain.RowDefinitions.Add(new RowDefinition());
+            this.gridmain.RowDefinitions.Add(new RowDefinition());
+            this.gridmain.RowDefinitions.Add(new RowDefinition());
+            this.gridmain.ShowGridLines = true;
         }
-        
+
     }
 }
