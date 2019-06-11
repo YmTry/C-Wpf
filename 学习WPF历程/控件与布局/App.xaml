@@ -1,8 +1,8 @@
-﻿<Application x:Class="X命名空间详解.App"
+﻿<Application x:Class="控件与布局.App"
              xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
-             xmlns:local="clr-namespace:X命名空间详解"
-             StartupUri="Frames/GridTest.xaml">
+             xmlns:local="clr-namespace:控件与布局"
+             StartupUri="MainWindow.xaml">
     <Application.Resources>
          
     </Application.Resources>
