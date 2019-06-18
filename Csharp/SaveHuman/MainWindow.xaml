@@ -51,7 +51,8 @@
             <TextBlock TextWrapping="Wrap"
                        Text="Avoid These"
                        FontSize="14"
-                       RenderTransformOrigin="0.672,0.525" />
+                       RenderTransformOrigin="0.672,0.525" 
+                       Name="gameOverText"/>
             <ContentControl Content="ContentControl"
                             RenderTransformOrigin="0.506,2.2"
                             HorizontalAlignment="Center"
@@ -61,7 +62,8 @@
         </StackPanel>
         <ProgressBar Grid.Column="1"
                      Grid.Row="2"
-                     Margin="0,70" />
+                     Margin="0,70" 
+                     Name="progerssBar"/>
         <Canvas x:Name="PlayArea"
                 HorizontalAlignment="Center"
                 Margin="0,41,2,137"
@@ -89,7 +91,7 @@
                     <GradientStop Color="White" />
                 </LinearGradientBrush>
             </Canvas.Background>
-            <StackPanel x:Name="Human"
+            <StackPanel x:Name="human"
                         Orientation="Vertical">
                 <Ellipse Fill="White"
                          Width="10"
@@ -106,7 +108,7 @@
                        FontFamily="Arial"
                        RenderTransformOrigin="1.254,0.357"
                        FontSize="100" />
-            <Rectangle x:Name="Target"
+            <Rectangle x:Name="target"
                        Height="50"
                        Canvas.Left="563"
                        Canvas.Top="24"
