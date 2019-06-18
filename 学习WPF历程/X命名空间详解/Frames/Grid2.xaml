@@ -1,0 +1,49 @@
+﻿<Window x:Class="X命名空间详解.Frames.Grid2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X命名空间详解.Frames"
+        mc:Ignorable="d"
+        Title="Grid2"
+        Height="450"
+        Width="800">
+    <Grid Margin="10"
+          MinWidth="120">
+        <Grid.ColumnDefinitions>
+            <!--数字表示固定值，auto表示自动设置宽度，保证填满容器，*表示按照比例-->
+            <ColumnDefinition Width="Auto" />
+            <ColumnDefinition Width="*" />
+            <ColumnDefinition Width="80" />
+            <ColumnDefinition Width="4" />
+            <ColumnDefinition Width="80" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="25" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="*" />
+            <RowDefinition Height="4" />
+            <RowDefinition Height="25" />
+        </Grid.RowDefinitions>
+        <TextBlock Text="请选择你的部门留言:"
+                   Grid.Column="0"
+                   Grid.Row="0"
+                   VerticalAlignment="Center" />
+        <!--columnSpan表示占据几列 占据几行表示相同  -->
+        <ComboBox Grid.Column="1"
+                  Grid.Row="0"
+                  Grid.ColumnSpan="4" />
+        <TextBox Grid.Column="0"
+                 Grid.Row="2"
+                 Grid.ColumnSpan="5"
+                 BorderBrush="Red"
+                 BorderThickness="10" />
+        <Button Content="提交"
+                Grid.Column="2"
+                Grid.Row="4" />
+        <Button Content="清除"
+                Grid.Column="2"
+
+                Grid.Row="4" />
+    </Grid>
+</Window>

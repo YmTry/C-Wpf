@@ -55,8 +55,17 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Frames\CanvasDemo.xaml.cs">
+      <DependentUpon>CanvasDemo.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\Grid2.xaml.cs">
+      <DependentUpon>Grid2.xaml</DependentUpon>
+    </Compile>
     <Compile Include="Frames\GridTest.xaml.cs">
       <DependentUpon>GridTest.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\StackPanelDemo.xaml.cs">
+      <DependentUpon>StackPanelDemo.xaml</DependentUpon>
     </Compile>
     <Compile Include="ListEmployee.xaml.cs">
       <DependentUpon>ListEmployee.xaml</DependentUpon>
@@ -67,7 +76,19 @@
     <Compile Include="XStatic.xaml.cs">
       <DependentUpon>XStatic.xaml</DependentUpon>
     </Compile>
+    <Page Include="Frames\CanvasDemo.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\Grid2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
     <Page Include="Frames\GridTest.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\StackPanelDemo.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>

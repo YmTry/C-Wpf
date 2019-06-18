@@ -1,0 +1,14 @@
+﻿<Window x:Class="X命名空间详解.Frames.CanvasDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X命名空间详解.Frames"
+        mc:Ignorable="d"
+        Title="CanvasDemo" Height="450" Width="800">
+    <DockPanel>
+        <TextBox DockPanel.Dock="Top" Height="25" Width="120" BorderBrush="Red"/>
+        <TextBox DockPanel.Dock="Left" Width="150" BorderBrush="Blue"/>
+        <TextBox BorderBrush="Aqua"/>
+    </DockPanel>
+</Window>

@@ -1,0 +1,26 @@
+﻿<Window x:Class="X命名空间详解.Frames.StackPanelDemo"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:X命名空间详解.Frames"
+        mc:Ignorable="d"
+        Title="StackPanelDemo"
+        Height="220"
+        Width="400">
+    <!--StackPanel使内部元素纵向或者横向排列-->
+    <Grid>
+        <GroupBox Header="请选择没有错别字的成语" BorderBrush="Black" Margin="5">
+            <StackPanel Margin="5">
+                <CheckBox Content="A.迫不及待" Margin="5"/>
+                <CheckBox Content="B.首曲一至" Margin="5"/>
+                <CheckBox Content="C.陈词滥调" Margin="5"/>
+                <CheckBox Content="D.唉声叹气" Margin="5"/>
+                <StackPanel Orientation="Horizontal" HorizontalAlignment="Right">
+                    <Button Content="确定" Margin="5"/>
+                    <Button Content="清空" Margin="5"/>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>
