@@ -10,6 +10,12 @@ namespace 多线程
     {
         static void Main(string[] args)
         {
+            int i = 72;
+            ASCIIEncoding ae = new ASCIIEncoding();
+            byte[] byteArray = new byte[] { (byte)i };
+            string str = ae.GetString((byteArray));
+            Console.WriteLine(str);
+            Console.ReadKey();
         }
     }
 }
