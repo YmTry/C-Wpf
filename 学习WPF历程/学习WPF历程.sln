@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.28307.136
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X命名空间详解", "X命名空间详解\X命名空间详解.csproj", "{74123A68-6A97-4DB5-8CE3-2CCF4AAEADED}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf内部", "Wpf内部\Wpf内部.csproj", "{B195595F-CF91-4B6D-A918-AB762F108C6C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{74123A68-6A97-4DB5-8CE3-2CCF4AAEADED}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74123A68-6A97-4DB5-8CE3-2CCF4AAEADED}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74123A68-6A97-4DB5-8CE3-2CCF4AAEADED}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -1,0 +1,17 @@
+﻿<Window x:Class="Wpf内部.Frames.BingDemo2"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Wpf内部.Frames"
+        xmlns:l="clr-namespace:Wpf内部"
+        mc:Ignorable="d"
+        Title="23" Height="450" Width="800">
+    <StackPanel Background="LightBlue">
+        <StackPanel.DataContext>
+            <l:Student Age="10" />
+        </StackPanel.DataContext>
+    <Grid>
+        </Grid>
+    </StackPanel>
+</Window>
