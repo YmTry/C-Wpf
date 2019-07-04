@@ -6,12 +6,19 @@
         xmlns:local="clr-namespace:Wpf内部.Frames"
         xmlns:l="clr-namespace:Wpf内部"
         mc:Ignorable="d"
-        Title="23" Height="450" Width="800">
+        Title="23"
+        Height="450"
+        Width="800">
     <StackPanel Background="LightBlue">
         <StackPanel.DataContext>
-            <l:Student Age="10" />
+            <l:Student Age="10"
+                       Id="123" />
         </StackPanel.DataContext>
-    <Grid>
+        <Grid>
+            <StackPanel>
+                <TextBox Text="{Binding Path=Id}"/>
+                <TextBox Text="{Binding Path=Age}"/>
+            </StackPanel>
         </Grid>
     </StackPanel>
 </Window>

@@ -19,7 +19,6 @@ namespace Wpf内部.Frames
     /// </summary>
     public partial class BingDemo2 : Window
     {
-        public static string  a = "123";
         public BingDemo2()
         {
             InitializeComponent();

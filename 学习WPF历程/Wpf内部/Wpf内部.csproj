@@ -16,7 +16,7 @@
     <Deterministic>true</Deterministic>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x64</PlatformTarget>
+    <PlatformTarget>x86</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -55,11 +55,24 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
+    <Compile Include="Calculator.cs" />
     <Compile Include="Frames\BingDemo1.xaml.cs">
       <DependentUpon>BingDemo1.xaml</DependentUpon>
     </Compile>
     <Compile Include="Frames\BingDemo2.xaml.cs">
       <DependentUpon>BingDemo2.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\BingDemo3.xaml.cs">
+      <DependentUpon>BingDemo3.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\BingDemo4.xaml.cs">
+      <DependentUpon>BingDemo4.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\BingDemo5.xaml.cs">
+      <DependentUpon>BingDemo5.xaml</DependentUpon>
+    </Compile>
+    <Compile Include="Frames\BingDemo6.xaml.cs">
+      <DependentUpon>BingDemo6.xaml</DependentUpon>
     </Compile>
     <Compile Include="Student.cs" />
     <Page Include="Frames\BingDemo1.xaml">
@@ -67,6 +80,22 @@
       <Generator>MSBuild:Compile</Generator>
     </Page>
     <Page Include="Frames\BingDemo2.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\BingDemo3.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\BingDemo4.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\BingDemo5.xaml">
+      <SubType>Designer</SubType>
+      <Generator>MSBuild:Compile</Generator>
+    </Page>
+    <Page Include="Frames\BingDemo6.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
@@ -109,6 +138,8 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Resource Include="Config\RawData.xml" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

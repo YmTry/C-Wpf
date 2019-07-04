@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "X命名空间详解", "X命
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wpf内部", "Wpf内部\Wpf内部.csproj", "{B195595F-CF91-4B6D-A918-AB762F108C6C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Test", "Test\Test.csproj", "{0737F077-D8D7-4BEE-87AA-D7E8FE6AB5EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B195595F-CF91-4B6D-A918-AB762F108C6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0737F077-D8D7-4BEE-87AA-D7E8FE6AB5EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0737F077-D8D7-4BEE-87AA-D7E8FE6AB5EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0737F077-D8D7-4BEE-87AA-D7E8FE6AB5EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0737F077-D8D7-4BEE-87AA-D7E8FE6AB5EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
